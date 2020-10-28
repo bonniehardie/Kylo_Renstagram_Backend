@@ -1,25 +1,23 @@
-const { validationResult } = require("express-validator");
 
-const asyncHandler = (handler) => (req, res, next) =>
-  handler(req, res, next).catch(next);
+const { validationResult } = require('express-validator');
+
+const asyncHandler = handler => (req, res, next) => handler(req, res, next).catch(next);
 
 const handleValidationErrors = (req, res, next) => {
   const validationErrors = validationResult(req);
-
   if (!validationErrors.isEmpty()) {
-    const errors = validationErrors.array().map((error) => error.msg);
-    const err = Error("Bad request.");
-
+    const errors = validationErrors.array().map(error => error.msg);
+    const err = Error('400: Bad Request');
     err.errors = errors;
+    err.title = '400: Bad Request';
     err.status = 400;
-    err.title = "Bad request.";
     return next(err);
+  } else {
+    next();
   }
-
-  next();
 };
 
 module.exports = {
   asyncHandler,
-  handleValidationErrors,
+  handleValidationErrors
 };

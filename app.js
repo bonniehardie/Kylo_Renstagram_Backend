@@ -4,9 +4,9 @@ const express = require('express');
 const helmet = require('helmet');
 const path = require('path');
 const logger = require('morgan');
+
 const routes = require('./routes');
-const indexRouter = require('./routes/index');
-const usersRouter = require('./routes/users');
+
 const app = express();
 
 app.use(cors({ origin: true }));
@@ -15,9 +15,36 @@ app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'public')));
-app.use(routes);
 
-app.use('/', indexRouter);
-app.use('/users', usersRouter);
+
+app.use('/api', routes);
+
+app.use(function(req, res, next) {
+  next(createError(404));
+});
+
+app.use(function(err, req, res, next) {
+  res.status(err.status || 500);
+  if (err.status === 401) {
+    res.set('WWW-Authenticate', 'Bearer');
+  }
+  res.json({
+    message: err.message,
+    error: JSON.parse(JSON.stringify(err)),
+  });
+});
+
+app.use((err, req, res, next) => {
+    console.log("I'm here");
+    console.log(err);
+    res.status(err.status || 500);
+    const errMsg = err.errors;
+
+    res.json({
+        title: err.title,
+        errors: errMsg,
+    });
+    console.log(errMsg);
+});
 
 module.exports = app;
