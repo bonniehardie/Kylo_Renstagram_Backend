@@ -5,7 +5,7 @@ const bcrypt = require("bcryptjs");
 const { check } = require("express-validator");
 const { asyncHandler, handleValidationErrors } = require("../../utils");
 const { generateToken } = require("../../auth");
-const { User, Photo, Comment, Like } = require("../../db/models");
+const { User, Photo, Comment, PhotoLike } = require("../../db/models");
 
 // router.get('/sos', (req, res, next) => {
 //   res.send("sos for real?")
@@ -103,20 +103,9 @@ router.get(
   // emailValidator,
   // passwordValidator,
   asyncHandler(async (req, res) => {
-    const photos = await Photo.findAll({
-        where: { userId: req.params.id},
-        include: User
-      })
-    // const photoLike = await PhotoLike.findAll({
-    //   where: photoId:
-    // })
-    // const user = await User.findByPk(req.params.id, {
-    //   // include: [Photo, Comment, Like]
-    // });
-    res.json(photos);
-
+    const user = await User.findByPk(req.params.id)
+    res.json(user);
 }));
-
 
 // Create a JWT token for a user on login
 router.post('/token', asyncHandler(async (req, res, next) => {
