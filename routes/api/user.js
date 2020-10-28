@@ -5,7 +5,7 @@ const bcrypt = require("bcryptjs");
 const { check } = require("express-validator");
 const { asyncHandler, handleValidationErrors } = require("../../utils");
 const { generateToken } = require("../../auth");
-const { User } = require("../../db/models");
+const { User, Photo, Comment, Like } = require("../../db/models");
 
 // router.get('/sos', (req, res, next) => {
 //   res.send("sos for real?")
@@ -45,7 +45,7 @@ const passwordValidator = [
     .withMessage("Please provide a Password")
     .isLength({ min: 8, max: 50 })
     .withMessage("Password must be between 8 and 50 characters in length")
-    
+
 ];
 
 
@@ -103,8 +103,17 @@ router.get(
   // emailValidator,
   // passwordValidator,
   asyncHandler(async (req, res) => {
-    const user = await User.findByPk(req.params.id);
-    res.json(user);
+    const photos = await Photo.findAll({
+        where: { userId: req.params.id},
+        include: User
+      })
+    // const photoLike = await PhotoLike.findAll({
+    //   where: photoId:
+    // })
+    // const user = await User.findByPk(req.params.id, {
+    //   // include: [Photo, Comment, Like]
+    // });
+    res.json(photos);
 
 }));
 

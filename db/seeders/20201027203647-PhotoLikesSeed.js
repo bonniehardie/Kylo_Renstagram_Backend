@@ -5,702 +5,702 @@ module.exports = {
     return queryInterface.bulkInsert('PhotoLikes', [
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
 
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         like: true,
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 50),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },

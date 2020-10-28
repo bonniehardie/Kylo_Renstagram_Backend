@@ -6,350 +6,350 @@ module.exports = {
     return queryInterface.bulkInsert('Comments', [
       {
         comment: faker.lorem.paragraphs().slice(0, 25),
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 100),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         comment: faker.lorem.paragraphs().slice(0, 25),
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 100),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         comment: faker.lorem.paragraphs().slice(0, 25),
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 100),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         comment: faker.lorem.paragraphs().slice(0, 25),
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 100),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         comment: faker.lorem.paragraphs().slice(0, 25),
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 100),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         comment: faker.lorem.paragraphs().slice(0, 25),
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 100),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         comment: faker.lorem.paragraphs().slice(0, 25),
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 100),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         comment: faker.lorem.paragraphs().slice(0, 25),
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 100),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         comment: faker.lorem.paragraphs().slice(0, 25),
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 100),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         comment: faker.lorem.paragraphs().slice(0, 25),
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 100),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         comment: faker.lorem.paragraphs().slice(0, 25),
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 100),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         comment: faker.lorem.paragraphs().slice(0, 25),
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 100),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         comment: faker.lorem.paragraphs().slice(0, 25),
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 100),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         comment: faker.lorem.paragraphs().slice(0, 25),
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 100),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         comment: faker.lorem.paragraphs().slice(0, 25),
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 100),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         comment: faker.lorem.paragraphs().slice(0, 25),
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 100),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         comment: faker.lorem.paragraphs().slice(0, 25),
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 100),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         comment: faker.lorem.paragraphs().slice(0, 25),
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 100),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         comment: faker.lorem.paragraphs().slice(0, 25),
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 100),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         comment: faker.lorem.paragraphs().slice(0, 25),
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 100),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         comment: faker.lorem.paragraphs().slice(0, 25),
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 100),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         comment: faker.lorem.paragraphs().slice(0, 25),
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 100),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         comment: faker.lorem.paragraphs().slice(0, 25),
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 100),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         comment: faker.lorem.paragraphs().slice(0, 25),
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 100),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },{
         comment: faker.lorem.paragraphs().slice(0, 25),
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 100),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         comment: faker.lorem.paragraphs().slice(0, 25),
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 100),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         comment: faker.lorem.paragraphs().slice(0, 25),
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 100),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         comment: faker.lorem.paragraphs().slice(0, 25),
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 100),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         comment: faker.lorem.paragraphs().slice(0, 25),
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 100),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         comment: faker.lorem.paragraphs().slice(0, 25),
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 100),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         comment: faker.lorem.paragraphs().slice(0, 25),
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 100),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         comment: faker.lorem.paragraphs().slice(0, 25),
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 100),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         comment: faker.lorem.paragraphs().slice(0, 25),
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 100),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         comment: faker.lorem.paragraphs().slice(0, 25),
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 100),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         comment: faker.lorem.paragraphs().slice(0, 25),
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 100),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         comment: faker.lorem.paragraphs().slice(0, 25),
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 100),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         comment: faker.lorem.paragraphs().slice(0, 25),
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 100),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         comment: faker.lorem.paragraphs().slice(0, 25),
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 100),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         comment: faker.lorem.paragraphs().slice(0, 25),
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 100),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         comment: faker.lorem.paragraphs().slice(0, 25),
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 100),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         comment: faker.lorem.paragraphs().slice(0, 25),
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 100),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         comment: faker.lorem.paragraphs().slice(0, 25),
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 100),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         comment: faker.lorem.paragraphs().slice(0, 25),
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 100),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         comment: faker.lorem.paragraphs().slice(0, 25),
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 100),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         comment: faker.lorem.paragraphs().slice(0, 25),
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 100),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         comment: faker.lorem.paragraphs().slice(0, 25),
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 100),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         comment: faker.lorem.paragraphs().slice(0, 25),
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 100),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         comment: faker.lorem.paragraphs().slice(0, 25),
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 100),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         comment: faker.lorem.paragraphs().slice(0, 25),
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 100),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         comment: faker.lorem.paragraphs().slice(0, 25),
-        userId: Math.ceil(Math.random() * 20),
-        photoId: Math.ceil(Math.random() * 100),
+        userId: Math.ceil(Math.random() * 5),
+        photoId: Math.ceil(Math.random() * 20),
         createdAt: new Date(),
         updatedAt: new Date()
       }
