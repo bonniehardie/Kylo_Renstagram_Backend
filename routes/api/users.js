@@ -102,18 +102,19 @@ router.post(
     })
 );
 
+
 // get user by id for profile view
 router.get(
     '/:id(\\d+)',
-    // userNameValidator,
-    // emailValidator,
-    // passwordValidator,
+    userNameValidator,
+    emailValidator,
+    passwordValidator,
     asyncHandler(async (req, res) => {
         const user = await User.findByPk(req.params.id)
         res.json(user);
-    }));
+}));
 
-// Create a JWT token for a user on login
+// generate a JWT token when user logs in
 router.post('/token', asyncHandler(async (req, res, next) => {
     const {
         userName,
