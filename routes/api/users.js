@@ -4,7 +4,7 @@ const bcrypt = require("bcryptjs");
 const { check } = require("express-validator");
 const { asyncHandler,handleValidationErrors } = require("../../utils");
 const { generateToken } = require("../../auth");
-const { User, Photo, Comment, PhotoLike } = require("../../db/models");
+const { User } = require("../../db/models");
 
 User.prototype.validatePassword = function (password) {
     return bcrypt.compareSync(password, this.hashedPassword.toString());
@@ -56,7 +56,7 @@ const passwordValidator = [
 
 ];
 
-//create user
+// create user
 router.post(
     "/",
     userNameValidator,

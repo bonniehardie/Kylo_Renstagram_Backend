@@ -5,8 +5,9 @@ const helmet = require('helmet');
 const path = require('path');
 const logger = require('morgan');
 
-const usersRoute = require('./routes/api/users');
-const photosRoute = require('./routes/api/photos');
+const usersRouter = require('./routes/api/users');
+const photosRouter = require('./routes/api/photos');
+const commentsRouter = require('./routes/api/comments')
 
 const app = express();
 
@@ -18,8 +19,9 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'public')));
 
 
-app.use('/api/users', usersRoute);
-app.use('/api/photos', photosRoute);
+app.use('/api/users', usersRouter);
+app.use('/api/photos', photosRouter);
+app.use('/api/comments', commentsRouter);
 
 app.use(function(req, res, next) {
   next(createError(404));
